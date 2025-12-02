@@ -1,8 +1,8 @@
 # Site settings
 title: Rotating Christmas Tree Stand
 description: Make your live holiday tree even better by viewing at all angles.
-baseurl: ""
-url: ""
+baseurl: "/rotating-christmas-tree-stand"
+url: "https://jonasbaldwin.github.io"
 
 # Build settings
 markdown: kramdown

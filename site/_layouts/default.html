@@ -79,10 +79,10 @@
 </head>
 <body>
     <header>
-        <h1><a href="/">{{ site.title }}</a></h1>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         <nav>
-            <a href="/">Home</a>
-            <a href="/log/">Log</a>
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/log/' | relative_url }}">Log</a>
         </nav>
     </header>
     <main>
