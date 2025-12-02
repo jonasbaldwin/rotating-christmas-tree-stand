@@ -63,9 +63,37 @@
         a:hover {
             text-decoration: underline;
         }
+        p {
+            margin-bottom: 1.5em;
+        }
         ul, ol {
             margin-left: 20px;
             margin-bottom: 1em;
+        }
+        img.float-left {
+            float: left;
+            margin: 0 20px 20px 0;
+        }
+        img.float-right {
+            float: right;
+            margin: 0 0 20px 20px;
+        }
+        img.small {
+            max-width: 200px;
+        }
+        img.medium {
+            max-width: 350px;
+        }
+        img.large {
+            max-width: 500px;
+        }
+        @media (max-width: 600px) {
+            img.float-left,
+            img.float-right {
+                float: none;
+                margin: 20px auto;
+                display: block;
+            }
         }
         footer {
             margin-top: 40px;
