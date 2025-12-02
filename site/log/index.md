@@ -11,7 +11,7 @@ Here's where I document my progress on building version 2 of the rotating Christ
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
       {% if post.excerpt %}
         <p>{{ post.excerpt }}</p>
