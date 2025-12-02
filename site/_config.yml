@@ -1,0 +1,15 @@
+# Site settings
+title: Rotating Christmas Tree Stand
+description: Make your live holiday tree even better by viewing at all angles.
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title.html
+
